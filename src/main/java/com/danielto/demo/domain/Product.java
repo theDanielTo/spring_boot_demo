@@ -1,4 +1,4 @@
-package com.danielto.demo;
+package com.danielto.demo.domain;
 
 public class Product {
   private int id;
