@@ -18,6 +18,6 @@ public class HomeController {
 
   @RequestMapping(value="/create", method=RequestMethod.POST)
   public String processFormData(User user) {
-    return "result";
+    return "results";
   }
 }
