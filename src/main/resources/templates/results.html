@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results</title>
+</head>
+<body>
+  <h1>Form submitted</h1>
+
+  <p>Full name: <span th:text="${user.fullName}"></span></p>
+  <p>Age: <span th:text="${user.age}"></span></p>
+  <p>Employed: <span th:text="${user.employed}"></span></p>
+  <p>Gender: <span th:text="${user.gender}"></span></p>
+</body>
+</html>
